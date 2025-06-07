@@ -1,0 +1,8 @@
+# Project dependencies
+dash
+pandas
+plotly
+requests
+pycountry
+svglib
+reportlab

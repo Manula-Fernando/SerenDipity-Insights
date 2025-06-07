@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+                url('https://images.unsplash.com/photo-1546708723-b4a0f2c80481?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.sl-pattern {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ff4b2b' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.overview-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.overview-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #FF4B2B, #009C72);
+}
+
+.overview-card:hover {
+    transform: translateY(-5px);
+    border-color: #FF4B2B;
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(120deg, #FF4B2B, #009C72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.sl-icon {
+    font-size: 2.5rem;
+    color: #FF4B2B;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.overview-card:hover .sl-icon {
+    transform: scale(1.1);
+    color: #009C72;
+}
+
+.dash-tabs {
+    margin-bottom: 20px;
+}
+
+.dash-tab {
+    padding: 15px 25px !important;
+    font-weight: 500 !important;
+    color: #2C3E50 !important;
+    border-radius: 10px 10px 0 0 !important;
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    transition: all 0.3s ease !important;
+}
+
+.dash-tab--selected {
+    background: linear-gradient(135deg, #FF4B2B, #009C72) !important;
+    color: white !important;
+}
+
+.quick-facts {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 75, 43, 0.2);
+}
+
+.quick-fact-item {
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 75, 43, 0.05);
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.quick-fact-item:hover {
+    background: rgba(0, 156, 114, 0.1);
+    transform: translateX(5px);
+}
+
+.chart-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+.year-radio-group input[type="radio"]:checked + label {
+    background: linear-gradient(135deg, #FF4B2B, #009C72) !important;
+    color: white !important;
+    border-color: transparent !important;
+    box-shadow: 0 4px 12px rgba(255, 75, 43, 0.3);
+}
+.year-radio-group label:hover {
+    background: #FFF0ED;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 75, 43, 0.2);
+}
+
+.purpose-radio-group input[type="radio"]:checked + label {
+    background: linear-gradient(135deg, #FF4B2B, #009C72) !important;
+    color: white !important;
+    border-color: transparent !important;
+    box-shadow: 0 4px 12px rgba(255, 75, 43, 0.3);
+}
+.purpose-radio-group label:hover {
+    background: #FFF0ED;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 75, 43, 0.2);
+}
