@@ -1,6 +1,6 @@
 # SerenDipity InsiGhts: Sri Lanka Tourism Dashboard 🌴
 
-![Sri Lanka Tourism Banner](https://images.unsplash.com/photo-1546708723-b4a0f2c80481?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+![Sri Lanka Tourism Banner](https://vignette.wikia.nocookie.net/logopedia/images/8/83/Srilanka_logo.png/revision/latest/scale-to-width-down/2000?cb=20150502050036)
 
 ## 🏖️ Overview
 
