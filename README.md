@@ -7,8 +7,8 @@
 **SerenDipity InsiGhts** is an interactive data visualization platform built with Dash and Plotly that provides comprehensive analytics on tourist arrivals to Sri Lanka. This dashboard enables tourism stakeholders, policymakers, data analysts, and researchers to gain valuable insights into visitor patterns, key source markets, arrival dynamics, and the geographic distribution of tourists from 2019 to the present day.
 
 ### Built By
-- **Dinil Bandara** - [LinkedIn](https://www.linkedin.com/in/dinil-bandara-533777283/)
 - **Manula Fernando** - [LinkedIn](https://www.linkedin.com/in/manula-fernando-483875283/)
+- **Dinil Bandara** - [LinkedIn](https://www.linkedin.com/in/dinil-bandara-533777283/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -150,3 +150,4 @@ SerenDipity-Insights/
 ---
 
 *Experience the Wonder of Asia with Data-Driven Insights! 🇱🇰*
+
